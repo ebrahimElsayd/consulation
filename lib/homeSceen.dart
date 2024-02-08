@@ -76,59 +76,6 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         )
 
-//       body:Column(
-//         children: [
-// ElevatedButton(
-//     style:ElevatedButton.styleFrom(
-//           primary: Colors.blue
-//
-//       ),
-//     onPressed: (){
-//       Navigator.pushNamed(context, AddConsulation.routeName);
-//     }, child: Text("Add Consulation ")),
-//       SizedBox(
-//         height: 10,
-//       ),
-//
-//           Row(
-//             mainAxisAlignment: MainAxisAlignment.center,
-//             children: [
-//               ElevatedButton(
-//                 onPressed: () {
-//                   setState(() {
-//                     showUpcoming = true;
-//                   });
-//                 },
-//                 child: Text("Upcoming"),
-//                 style: ElevatedButton.styleFrom(
-//                   primary: showUpcoming ? Colors.blue : Colors.grey,
-//                 ),
-//               ),
-//               SizedBox(width: 20),
-//               ElevatedButton(
-//                 onPressed: () {
-//                   setState(() {
-//                     showUpcoming = false;
-//                   });
-//                 },
-//                 child: Text("Completed"),
-//                 style: ElevatedButton.styleFrom(
-//                   primary: showUpcoming ? Colors.grey : Colors.blue,
-//                 ),
-//               ),
-//             ],
-//           ),
-//           SizedBox(height: 20),
-//           Visibility(
-//             visible: showUpcoming,
-//             child:Upcoming(),
-//           ),
-//           Visibility(
-//             visible: !showUpcoming,
-//             child: Completed(),
-//           ),
-//            ],
-//          )
 
         );
   }
